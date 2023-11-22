@@ -1,37 +1,41 @@
-
-.mainscreen{
-width: 545px;
-height: 500px;
-background: palevioletred;
-padding-left: 50px;
-padding-top: 50px;
+.screen {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
-#screen{
-    border: solid 2px;
-    border-radius: 8px;
-
-    /* background: #000; */
-width: 490px ;
-height: 100px;
+.mainscreen {
+  width: 545px;
+  height: 500px;
+  background: palevioletred;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 8px;
 }
-.cyan{
-    width: 230px;
-    height: 150px;
-    background: cyan;
+#screen {
+  border: solid 2px;
+  border-radius: 8px;
+  width: 490px;
+  height: 100px;
 }
-.black{
-    color: white;
-    width: 230px;
-    height: 150px;
-    background: black;
+.cyan {
+  width: 230px;
+  height: 150px;
+  background: cyan;
 }
-.green{
-    width: 230px;
-    height: 150px;
-    background: green;
+.black {
+  color: white;
+  width: 230px;
+  height: 150px;
+  background: black;
 }
-.yellow{
-    width: 230px;
-    height: 150px;
-    background: yellow;
+.green {
+  width: 230px;
+  height: 150px;
+  background: green;
+}
+.yellow {
+  width: 230px;
+  height: 150px;
+  background: yellow;
 }
