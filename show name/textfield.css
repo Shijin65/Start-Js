@@ -1,0 +1,57 @@
+.frame{
+    padding-left: 90px;
+    padding-top: 50px;
+    width: 580px;
+    height: 400px;
+    background: cyan;
+    
+}
+.textarea{
+    padding-left: 50px;
+    padding-top: 60px;
+    background: white;
+    width: 400px;
+    height: 160px;
+
+}
+#intext{
+    padding-left: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 8px;
+    height: 50px;
+    width: 350px;
+    background: rgb(255, 255, 255);
+}
+.buttonframe{
+
+    padding-top:20px;
+    padding-left: 60px;
+    
+}
+.button
+{
+    background: rgb(84, 232, 84);
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.output{
+    text-transform: uppercase;
+    font-family:Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    padding-top: 15px;
+    text-align: center;
+    
+    width: 450px;
+    height: 100px;
+    background: pink;
+}
+.is{
+    padding-left: 90px;
+}

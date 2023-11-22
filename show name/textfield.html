@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title icon="defult">input text</title>
+    <link rel="stylesheet" href="textfield.css">
+</head>
+<body>
+
+    <div class="frame">
+        <div class="textarea">
+            <input type="text" id="intext" placeholder="Enter your name">
+            <div class="buttonframe"><button onclick="showinh1()" class="button">click here</button></div>
+            <br><h1 class="is">your name is </h1>
+        </div>
+        <div class="output"><h1 id="H1"></h1></div>
+    </div>
+    
+    <script>
+        {
+            function  showinh1() {
+                var input=document.getElementById("intext").value;
+               
+                document.getElementById("H1").innerHTML=input
+
+                if (input=="shijin") {
+                    window.alert("Are you sure you want to show your name")
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>

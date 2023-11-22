@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colorbutton.css">
+</head>
+<body>
+    <div class="mainscreen">
+
+    
+    <div id="screen"></div><br>
+    <button class="cyan" onclick="showclr('cyan')">cyan</button>
+    <button class="black" onclick="showclr('black')">black</button><br>
+    <button class="green" onclick="showclr('green')">green</button>
+    <button class="yellow" onclick="showclr('yellow')">yellow</button>
+</div>
+    <script>
+        function showclr(col)
+        {
+            document.getElementById("screen").style.background=col
+        }
+    </script>
+</body>
+</html>
